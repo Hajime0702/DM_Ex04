@@ -22,5 +22,10 @@ public class diceGame{
 	System.out.println("die 1: " + dice1);
 	System.out.println("die 2: " + dice2);
 	System.out.println("Total value: " + total);
+
+	if(total > 7)
+	    System.out.println(name + " won!");
+	else
+	    System.out.println(name + " lost...");
     }
 }
