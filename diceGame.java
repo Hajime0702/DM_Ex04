@@ -29,5 +29,5 @@ public class diceGame{
 	    System.out.println(name + " won!");
 	else
 	    System.out.println(name + " lost...");
-    }
+    }w
 }
